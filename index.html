@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <!-- en font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+   <!-- ar font -->
+   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+   <script>
+      tailwind.config = {
+         theme: {
+            extend: {
+               colors: {
+                  pri: "#7f2217",
+                  sec: "#d3ad9d",
+               }
+            },
+            container: {
+               center: true,
+               padding: "1rem",
+            },
+         },
+      };
+   </script>
+   <style>
+      * {
+         font-family: 'Playfair Display', serif;
+      }
+      .ar-btn{
+         font-family: 'Cairo', sans-serif;
+      }
+   </style>
+</head>
+
+<body>
+   <header class="h-screen w-full bg-pri flex flex-col">
+      <div class="head">
+         <img src="images/cover.png" class="cover" alt="">
+         <img src="images/Vector Smart Object.svg" class="logo" alt="">
+      </div>
+      <div class="z-10 relative grow container flex gap-8 flex-col items-center justify-center">
+         <div class="flex  gap-8 flex-col justify-center items-center translate-y-[10%]">
+            <h1 class="md:text-9xl text-5xl text-sec">La Pa Sa Menu</h1>
+            <!-- <p class="text-center text-sec max-w-2xl">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quisquam, dicta voluptate corrupti consectetur deleniti quibusdam debitis cumque, harum praesentium nulla numquam et molestiae aperiam corporis assumenda nam error natus.
+            </p> -->
+            <div class="flex gap-8">
+               <a href="ar/categories.html"
+                  class="relative hover:scale-105 transition">
+                  <!-- &#x2B22; -->
+                  <img src="images/btn.svg" class="max-w-[7rem]" alt="">
+                  <span class="abolut absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-xl text-pri">AR</span>
+               </a>
+               <a href="en/categories.html"
+                  class="relative hover:scale-105 transition">
+                  <!-- &#x2B22; -->
+                  <img src="images/btn.svg" class="max-w-[7rem]" alt="">
+                  <span class="abolut absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-xl text-pri">ENG</span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </header>
+   <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+
+</html>

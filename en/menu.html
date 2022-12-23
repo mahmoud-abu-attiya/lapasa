@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+   <link rel="stylesheet" href="../style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+   
+   <script>
+      tailwind.config = {
+         theme: {
+            extend: {
+               colors: {
+                  pri: "#9f9f9f",
+                  sec: "#d4d4d4",
+               }
+            },
+            container: {
+               center: true,
+               padding: "1rem",
+            },
+         },
+      };
+   </script>
+   <style>
+      *{
+      font-family: 'Playfair Display', serif;
+      }
+      .img-container{
+         position: relative;
+         width: 100%;
+         padding-top: 75%;
+         overflow: hidden;
+         border-radius: 1.5rem;
+      }
+      .img-container img{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         width: 100%;
+         min-width: 100%;
+         min-height: 100%;
+         object-fit: cover;
+      }
+   </style>
+</head>
+<body>
+   <div class="overlay-menu"></div>
+   <nav class="absolute top-0 left-0 w-full z-10 py-4 bg-pri/25">
+      <div class="container flex items-center gap-4">
+         <button class="w-14 h-14 bg-pri rounded-full flex justify-center items-center" onclick="window.history.back()">
+            <i class="far fa-chevron-left text-sec text-2xl"></i>
+         </button>
+         <h1 class="text-5xl text-pri capitalize">category</h1>
+      </div>
+   </nav>
+   <div class="container pt-28">
+      <div class="grid gap-4 md:gap-10 pb-8 grid-cols-1 md:grid-cols-3">
+         <div class="col-span-3 z-10 flex gap-4 items-center">
+            <img src="../images/point.svg" class="h-12" alt="">
+            <h2 class="uppercase text-5xl text-gray-600">lorem ipsum</h2>
+         </div>
+         <!-- start item -->
+         <div class="bg-sec/50 shadow-lg rounded-[2rem] z-10 text-center">
+            <div class="img-container">
+               <img src="../images/item.jpg" alt="">
+            </div>
+            <div class="p-4">
+               <h3 class="capitalize text-gray-700 mx-auto text-3xl border-b w-fit pb-2 mb-2">name</h3>
+               <p class="font-light text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim quibusdam exercitationem nam tempora qui nisi laboriosam soluta architec</p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 mx-auto rounded-xl mt-4">price: <strong>10 QR</strong></div>
+            </div>
+         </div>
+         <!-- start item -->
+         <!-- start item -->
+         <div class="bg-sec/50 shadow-lg rounded-[2rem] z-10 text-center">
+            <div class="img-container">
+               <img src="../images/item.jpg" alt="">
+            </div>
+            <div class="p-4">
+               <h3 class="capitalize text-gray-700 mx-auto text-3xl border-b w-fit pb-2 mb-2">name</h3>
+               <p class="font-light text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim quibusdam exercitationem nam tempora qui nisi laboriosam soluta architec</p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 mx-auto rounded-xl mt-4">price: <strong>10 QR</strong></div>
+            </div>
+         </div>
+         <!-- start item -->
+         <!-- start item -->
+         <div class="bg-sec/50 shadow-lg rounded-[2rem] z-10 text-center">
+            <div class="img-container">
+               <img src="../images/item.jpg" alt="">
+            </div>
+            <div class="p-4">
+               <h3 class="capitalize text-gray-700 mx-auto text-3xl border-b w-fit pb-2 mb-2">name</h3>
+               <p class="font-light text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim quibusdam exercitationem nam tempora qui nisi laboriosam soluta architec</p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 mx-auto rounded-xl mt-4">price: <strong>10 QR</strong></div>
+            </div>
+         </div>
+         <!-- start item -->
+         <!-- start item -->
+         <div class="bg-sec/50 shadow-lg rounded-[2rem] z-10 text-center">
+            <div class="img-container">
+               <img src="../images/item.jpg" alt="">
+            </div>
+            <div class="p-4">
+               <h3 class="capitalize text-gray-700 mx-auto text-3xl border-b w-fit pb-2 mb-2">name</h3>
+               <p class="font-light text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim quibusdam exercitationem nam tempora qui nisi laboriosam soluta architec</p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 mx-auto rounded-xl mt-4">price: <strong>10 QR</strong></div>
+            </div>
+         </div>
+         <!-- start item -->
+         <!-- start item -->
+         <div class="bg-sec/50 shadow-lg rounded-[2rem] z-10 text-center">
+            <div class="img-container">
+               <img src="../images/item.jpg" alt="">
+            </div>
+            <div class="p-4">
+               <h3 class="capitalize text-gray-700 mx-auto text-3xl border-b w-fit pb-2 mb-2">name</h3>
+               <p class="font-light text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim quibusdam exercitationem nam tempora qui nisi laboriosam soluta architec</p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 mx-auto rounded-xl mt-4">price: <strong>10 QR</strong></div>
+            </div>
+         </div>
+         <!-- start item -->
+         <!-- start item -->
+         <div class="bg-sec/50 shadow-lg rounded-[2rem] z-10 text-center">
+            <div class="img-container">
+               <img src="../images/item.jpg" alt="">
+            </div>
+            <div class="p-4">
+               <h3 class="capitalize text-gray-700 mx-auto text-3xl border-b w-fit pb-2 mb-2">name</h3>
+               <p class="font-light text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, enim quibusdam exercitationem nam tempora qui nisi laboriosam soluta architec</p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 mx-auto rounded-xl mt-4">price: <strong>10 QR</strong></div>
+            </div>
+         </div>
+         <!-- start item -->
+      </div>
+   </div>
+   <div class="container pb-4">
+      <footer class="z-10 relative text-sec p-4 bg-pri rounded-lg shadow md:flex md:items-center md:justify-between md:p-6">
+         
+         <span class="text-sm sm:text-center">© 2022 <a href="#" class="hover:underline">Parseh</a>. All
+            Rights Reserved.
+         </span>
+         
+         <ul class="flex gap-4 items-center mt-3 text-sm sm:mt-0">
+            <li>
+               <a href="https://m.facebook.com/lapasa.qa/" class="text-xl">
+                  <i class="fab fa-facebook"></i>
+               </a>
+            </li>
+            <li>
+               <a href="https://wa.me/+97455283755" class="text-xl">
+                  <i class="fab fa-whatsapp"></i>
+               </a>
+            </li>
+            <li>
+               <a href="https://instagram.com/lapasa.qa?igshid=YmMyMTA2M2Y=" class="text-xl">
+                  <i class="fab fa-instagram"></i>
+               </a>
+            </li>
+         </ul>
+         
+         <div>
+            Powered by 
+            <a href="https://orizon.qa">
+               <img class="h-4 inline" src="https://orizon.qa/images/logo/nav-logo.png" alt="Orizon Qatar">
+            </a>
+         </div>
+         
+      </footer>
+   </div>
+   <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+</html>
