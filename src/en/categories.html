@@ -6,43 +6,17 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Document</title>
-      <link
-         rel="stylesheet"
-         href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css"
-      />
-      <script src="https://cdn.tailwindcss.com"></script>
-      <link
-         rel="stylesheet"
-         href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-         crossorigin="anonymous"
-      />
-      <link rel="stylesheet" href="../style.css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-      <link
-         href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
-         rel="stylesheet"
-      />
-
-      <script>
-         tailwind.config = {
-            theme: {
-               extend: {
-                  colors: {
-                     pri: "#8e614f",
-                     sec: "#d3ad9d",
-                  },
-               },
-               container: {
-                  center: true,
-                  padding: "1rem",
-               },
-            },
-         };
-      </script>
+      <link href="/dist/output.css" rel="stylesheet">
+      <link href="/src/style.css" rel="stylesheet">
       <style>
+               @font-face {
+         font-family: 'Playfair Display';
+         src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+      }
+      @font-face {
+         font-family: 'Cairo';
+         src: url('fonts/Cairo/Cairo-VariableFont_wght.ttf');
+      }
          *{
          font-family: 'Playfair Display', serif;
          }
@@ -66,49 +40,49 @@
             >
                <!-- start item -->
                <a href="./menu.html" class="cat relative hover:scale-105 transition">
-                  <img src="../images/cat.png" alt="" />
+                  <img src="/src/images/point.png" alt="" />
                   <p class="uppercase text-4xl text-pri font-light">lorem ipsum</p>
                </a>
                <!-- end item -->
                <!-- start item -->
                <a href="./menu.html" class="cat relative hover:scale-105 transition">
-                  <img src="../images/cat.png" alt="" />
+                  <img src="/src/images/point.png" alt="" />
                   <p class="uppercase text-4xl text-pri font-light">lorem ipsum</p>
                </a>
                <!-- end item -->
                <!-- start item -->
                <a href="./menu.html" class="cat relative hover:scale-105 transition">
-                  <img src="../images/cat.png" alt="" />
+                  <img src="/src/images/point.png" alt="" />
                   <p class="uppercase text-4xl text-pri font-light">lorem ipsum</p>
                </a>
                <!-- end item -->
                <!-- start item -->
                <a href="./menu.html" class="cat relative hover:scale-105 transition">
-                  <img src="../images/cat.png" alt="" />
+                  <img src="/src/images/point.png" alt="" />
                   <p class="uppercase text-4xl text-pri font-light">lorem ipsum</p>
                </a>
                <!-- end item -->
                <!-- start item -->
                <a href="./menu.html" class="cat relative hover:scale-105 transition">
-                  <img src="../images/cat.png" alt="" />
+                  <img src="/src/images/point.png" alt="" />
                   <p class="uppercase text-4xl text-pri font-light">lorem ipsum</p>
                </a>
                <!-- end item -->
                <!-- start item -->
                <a href="./menu.html" class="cat relative hover:scale-105 transition">
-                  <img src="../images/cat.png" alt="" />
+                  <img src="/src/images/point.png" alt="" />
                   <p class="uppercase text-4xl text-pri font-light">lorem ipsum</p>
                </a>
                <!-- end item -->
                <!-- start item -->
                <a href="./menu.html" class="cat relative hover:scale-105 transition">
-                  <img src="../images/cat.png" alt="" />
+                  <img src="/src/images/point.png" alt="" />
                   <p class="uppercase text-4xl text-pri font-light">lorem ipsum</p>
                </a>
                <!-- end item -->
                <!-- start item -->
                <a href="./menu.html" class="cat relative hover:scale-105 transition">
-                  <img src="../images/cat.png" alt="" />
+                  <img src="/src/images/point.png" alt="" />
                   <p class="uppercase text-4xl text-pri font-light">lorem ipsum</p>
                </a>
                <!-- end item -->
@@ -123,20 +97,20 @@
                   Rights Reserved.
                </span>
 
-               <ul class="flex gap-4 items-center mt-3 text-sm sm:mt-0">
+               <ul class="flex gap-4 items-center text-sm">
                   <li>
                      <a href="#" class="text-xl">
-                        <i class="fab fa-facebook"></i>
+                        <img src='/src/images/facebook.svg' alt="icon" class="h-4 icon">
                      </a>
                   </li>
                   <li>
                      <a href="#" class="text-xl">
-                        <i class="fab fa-snapchat"></i>
+                        <img src='/src/images/snapchat.svg' alt="icon" class="h-4 icon">
                      </a>
                   </li>
                   <li>
                      <a href="#" class="text-xl">
-                        <i class="fab fa-instagram"></i>
+                        <img src='/src/images/instagram.svg' alt="icon" class="h-4 icon">
                      </a>
                   </li>
                </ul>
@@ -146,7 +120,7 @@
                   <a href="https://orizon.qa">
                      <img
                         class="h-4 inline"
-                        src="https://orizon.qa/images/logo/nav-logo.png"
+                        src="/src/images/or-logo.png"
                         alt="Orizon Qatar"
                      />
                   </a>

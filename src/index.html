@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="/dist/output.css" rel="stylesheet">
+   <link href="/src/style.css" rel="stylesheet">
+   <style>
+      @font-face {
+         font-family: 'Playfair Display';
+         src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+      }
+      @font-face {
+         font-family: 'Cairo';
+         src: url('fonts/Cairo/Cairo-VariableFont_wght.ttf');
+      }
+
+      * {
+         font-family: 'Playfair Display', serif;
+      }
+
+      .ar-btn {
+         font-family: 'Cairo', sans-serif;
+      }
+   </style>
+</head>
+
+<body>
+   <header class="h-screen w-full bg-pri flex flex-col">
+      <div class="head">
+         <img src="images/cover.png" class="cover" alt="">
+         <img src="images/Vector Smart Object.svg" class="logo" alt="">
+      </div>
+      <div class="z-10 relative grow container flex gap-8 flex-col items-center justify-center">
+         <div class="flex  gap-8 flex-col justify-center items-center translate-y-[10%]">
+            <h1 class="md:text-9xl text-5xl text-sec">La Pa Sa Menu</h1>
+            <div class="flex gap-8">
+               <a href="ar/categories.html" class="relative hover:scale-105 transition">
+                  <!-- &#x2B22; -->
+                  <img src="images/btn.svg" class="max-w-[7rem]" alt="">
+                  <span
+                     class="abolut absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-xl text-pri">AR</span>
+               </a>
+               <a href="en/categories.html" class="relative hover:scale-105 transition">
+                  <!-- &#x2B22; -->
+                  <img src="images/btn.svg" class="max-w-[7rem]" alt="">
+                  <span
+                     class="abolut absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-xl text-pri">ENG</span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </header>
+</body>
+
+</html>

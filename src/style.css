@@ -70,3 +70,6 @@ main{
 nav{
    background-color: rgba(247, 226, 217, 0.2);
 }
+.icon{
+   filter: invert(90%) sepia(4%) saturate(5450%) hue-rotate(309deg) brightness(89%) contrast(84%);
+}
